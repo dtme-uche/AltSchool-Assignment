@@ -139,6 +139,10 @@ form .input-email input{
     width: 75%;
 }
 
+.cs{
+    width: 100%;
+}
+
 .cd input{
     height: 30px;
     background-color: #038E7D;
@@ -282,20 +286,29 @@ sup{
     border-radius: 3px 0 0 3px;
 }
 
-.card-details input:last-child{
-    border-radius: 0 3px 3px 0;
-}
-
-.card-details input:nth-child(2){
-    border-radius: 0;
-}
-
 .card-details input:focus{
     outline: 0;
 }
 
 .num{
-    width: 10px;
+    width: 60%;
+}
+
+.spaces{
+    display: flex;
+    width: 40%;
+}
+
+.spaces input{
+    padding: 0;
+}
+
+.spaces input:first-child{
+    border-radius: 0;
+}
+
+.spaces input:nth-child(2){
+    border-radius: 0 3px 3px 0;
 }
 
 
